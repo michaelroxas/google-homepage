@@ -1,5 +1,8 @@
-body {
+html, body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
+    height: 100%;
     font-size: 14px;
     font-family: Arial, sans-serif;
     color: #222;
@@ -16,7 +19,11 @@ body {
 }
 
 #main {
-    margin-top: 200px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #logo {
@@ -26,15 +33,19 @@ body {
 #search-bar-container {
     text-align: center;
     margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #search-bar {
     padding-top: 10px;
     padding-bottom: 10px;
     outline: 0;
-    width: 50%;
+    width: 500px;
     border-radius: 30px;
     border: 2px solid #eeeeee;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #buttons {
@@ -57,3 +68,6 @@ body {
     text-align: center;
     margin-top: 20px;
 }
+
+/* footer content: #37 Simple Google Homepage Project
+    @ 15:53 */
