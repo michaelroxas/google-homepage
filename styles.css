@@ -1,41 +1,38 @@
-html {
-    height: 100%;
-    min-height: 100%;
+body {
+    margin: 0;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #222;
 }
 
 #navbar {
-    display: grid;
-    grid-template-columns: 50px 50px 50px 50px;
-    grid-template-rows: 50px;
-    grid-template-areas: 
-    "gmail images menu sign-in";
-    float: right;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
 }
 
-a {
-    text-decoration: none;
+#navbar a {
+    margin-right: 20px;
 }
 
-#gmail {
-    grid-area: gmail;
-    justify-self: center;
-    align-self: center;
+#main {
+    margin-top: 200px;
 }
 
-#images {
-    grid-area: images;
-    justify-self: center;
-    align-self: center;
+#logo {
+    text-align: center;
 }
 
-#menu {
-    grid-area: menu;
-    justify-self: center;
-    align-self: center;
+#search-bar-container {
+    text-align: center;
+    margin-top: 20px;
 }
 
-#sign-in {
-    grid-area: sign-in;
-    justify-self: center;
-    align-self: center;
+#search-bar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    width: 50%;
+    border-radius: 30px;
+    border: 2px solid #eeeeee;
 }
