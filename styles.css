@@ -36,3 +36,24 @@ body {
     border-radius: 30px;
     border: 2px solid #eeeeee;
 }
+
+#buttons {
+    margin-top: 20px; 
+    display: flex; 
+    justify-content: center;
+
+}
+
+.button {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background: rgb(231,231,231);
+    cursor: pointer;
+}
+
+#languages {
+    text-align: center;
+    margin-top: 20px;
+}
