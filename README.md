@@ -1,2 +1,6 @@
 # google-homepage
-first hands on exercise from the odin project
+
+
+## Project: Front-End (HTML + CSS)
+
+Deconstructing and rebuilding Google Search Results Page. 
